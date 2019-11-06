@@ -19,6 +19,14 @@ const validators = {
 				throw new Error(`Invalid value for '${term}': '${value}', must be valid url with HTTPS protocol.`);
 			}
 		}
+	},
+	a: {
+		description: 'The tag is point to the URL with a path your VMC certificate file (.pem) to the BIMI record.',
+		validate(term, value) {
+			if (!validator.isURL(value, {protocols: ['https']})) {
+				throw new Error(`Invalid value for '${term}': '${value}', must be valid url with HTTPS protocol.`);
+			}
+		}
 	}
 };
 
