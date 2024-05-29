@@ -1,6 +1,6 @@
 {
-  "name": "bimi-parse",
-  "version": "1.0.0",
+  "name": "@glocksoftware/bimi-parse",
+  "version": "1.0.1",
   "description": "Parse BIMI policy strings",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rungerd/bimi-parse.git"
+    "url": "git+https://github.com/glocksoftware/bimi-parse.git"
   },
   "keywords": [
     "bimi",
@@ -18,9 +18,9 @@
   "author": "Valery Vladyka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rungerd/bimi-parse/issues"
+    "url": "https://github.com/glocksoftware/bimi-parse/issues"
   },
-  "homepage": "https://github.com/Rungerd/bimi-parse#readme",
+  "homepage": "https://github.com/glocksoftware/bimi-parse#readme",
   "devDependencies": {
     "ava": "^0.17.0",
     "coveralls": "^2.11.15",
